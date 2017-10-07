@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:element} in ${2:collection} %}
-	${3}
-{% endfor %}</string>
+	<string>{% include '${1:name-of-snippet}' %}</string>
 	<key>name</key>
-	<string>liquid for</string>
+	<string>liquid include</string>
 	<key>scope</key>
 	<string>text.html, source.css, source.scss</string>
 	<key>tabTrigger</key>
-	<string>lqfo</string>
+	<string>lqin</string>
 	<key>uuid</key>
-	<string>A75C87EA-758C-4371-B115-6DC1E6310BD8</string>
+	<string>1DC23A0E-A2EC-492E-9DC7-BAF1779B9F07</string>
 </dict>
 </plist>

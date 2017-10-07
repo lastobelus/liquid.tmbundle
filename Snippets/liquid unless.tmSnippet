@@ -3,16 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:element} in ${2:collection} %}
-	${3}
-{% endfor %}</string>
+	<string>{% unless ${1:condition} %}
+  ${2:what to do}
+{% endunless %}
+</string>
 	<key>name</key>
-	<string>liquid for</string>
+	<string>liquid unless</string>
 	<key>scope</key>
 	<string>text.html, source.css, source.scss</string>
 	<key>tabTrigger</key>
-	<string>lqfo</string>
+	<string>lqu</string>
 	<key>uuid</key>
-	<string>A75C87EA-758C-4371-B115-6DC1E6310BD8</string>
+	<string>0469FB7C-6C3B-45A9-AEA3-8AA9809E7C18</string>
 </dict>
 </plist>

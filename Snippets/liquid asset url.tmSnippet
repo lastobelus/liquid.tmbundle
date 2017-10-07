@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:element} in ${2:collection} %}
-	${3}
-{% endfor %}</string>
+	<string>{{ '${1:name-of-file}' | asset_url }}</string>
 	<key>name</key>
-	<string>liquid for</string>
+	<string>liquid asset url</string>
 	<key>scope</key>
 	<string>text.html, source.css, source.scss</string>
 	<key>tabTrigger</key>
-	<string>lqfo</string>
+	<string>lqau</string>
 	<key>uuid</key>
-	<string>A75C87EA-758C-4371-B115-6DC1E6310BD8</string>
+	<string>0E358FB6-DE17-4B6D-BAAC-B85AA8B680DA</string>
 </dict>
 </plist>

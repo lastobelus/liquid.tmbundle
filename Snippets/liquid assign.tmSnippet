@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:element} in ${2:collection} %}
-	${3}
-{% endfor %}</string>
+	<string>{% assign ${1:variable} = ${2:value} %}</string>
 	<key>name</key>
-	<string>liquid for</string>
+	<string>liquid assign</string>
 	<key>scope</key>
 	<string>text.html, source.css, source.scss</string>
 	<key>tabTrigger</key>
-	<string>lqfo</string>
+	<string>lqa</string>
 	<key>uuid</key>
-	<string>A75C87EA-758C-4371-B115-6DC1E6310BD8</string>
+	<string>D8B2A9F2-49DD-4CE5-A462-8D81B1354E89</string>
 </dict>
 </plist>

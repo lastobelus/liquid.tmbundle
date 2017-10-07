@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:element} in ${2:collection} %}
-	${3}
-{% endfor %}</string>
+	<string>{% capture ${1:variable} %}
+  ${2:what-to-capture}
+{% endcapture %}</string>
 	<key>name</key>
-	<string>liquid for</string>
+	<string>liquid capture</string>
 	<key>scope</key>
 	<string>text.html, source.css, source.scss</string>
 	<key>tabTrigger</key>
-	<string>lqfo</string>
+	<string>lqcap</string>
 	<key>uuid</key>
-	<string>A75C87EA-758C-4371-B115-6DC1E6310BD8</string>
+	<string>A5A7A29A-79A8-4543-B91B-71948BAED929</string>
 </dict>
 </plist>

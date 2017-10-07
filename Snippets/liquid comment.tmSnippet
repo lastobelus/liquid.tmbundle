@@ -3,16 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:element} in ${2:collection} %}
-	${3}
-{% endfor %}</string>
+	<string>{% comment %}
+  $0
+{% endcomment %}
+</string>
 	<key>name</key>
-	<string>liquid for</string>
+	<string>liquid comment</string>
 	<key>scope</key>
 	<string>text.html, source.css, source.scss</string>
 	<key>tabTrigger</key>
-	<string>lqfo</string>
+	<string>lqc</string>
 	<key>uuid</key>
-	<string>A75C87EA-758C-4371-B115-6DC1E6310BD8</string>
+	<string>54A6BFD0-8DD0-4929-873F-75A1073C889D</string>
 </dict>
 </plist>
